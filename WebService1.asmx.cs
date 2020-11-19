@@ -35,5 +35,11 @@ namespace webservices
         {
             return (a -b).ToString();
         }
+
+        [WebMethod(Description = "求积")]
+        public string num2(int a, int b)
+        {
+            return (a * b).ToString();
+        }
     }
 }
