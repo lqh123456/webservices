@@ -41,5 +41,11 @@ namespace webservices
         {
             return (a * b).ToString();
         }
+
+        [WebMethod(Description = "求商")]
+        public string num3(int a, int b)
+        {
+            return (a / b).ToString();
+        }
     }
 }
